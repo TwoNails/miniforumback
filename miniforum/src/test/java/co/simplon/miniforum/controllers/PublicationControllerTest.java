@@ -90,7 +90,7 @@ class PublicationControllerTest extends PublicationController {
     }
 	*/
 	
-	
+	/*
 	@Test
 	public void getAllPublicationsEndpointTest() throws Exception {
 		when(this.publicationService.findAll()).thenReturn(new ArrayList<Publication>());

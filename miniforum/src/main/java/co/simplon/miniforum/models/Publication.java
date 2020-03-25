@@ -31,9 +31,9 @@ public class Publication {
 	public Publication() {
 	}
 	public Publication(String textContent, ForumUser author, Date datePublication) {
-		this.datePublication = datePublication;
 		this.textContent = textContent;
 		this.author = author;
+		this.datePublication = datePublication;
 	}
 	public Publication(int id, String textContent, Date datePublication, ForumUser author) {
 		this.id = id;
